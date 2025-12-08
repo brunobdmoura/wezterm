@@ -1,7 +1,7 @@
 local colors = {
   background = "#181616",
   ansi = {
-    black   = "#16161d",
+    black   = "#181616",
     red     = "#c4746e",
     green   = "#87a987",
     yellow  = "#c4b28a",
