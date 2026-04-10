@@ -34,11 +34,14 @@ config.enable_wayland = true
 
 -- Set the window padding to zero.
 config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
+-- config.window_decorations = "RESIZE"
 
 -- Do not dim inactive panes.
 config.inactive_pane_hsb = {
   saturation = 1.0,
   brightness = 1.0,
 }
+
+config.warn_about_missing_glyphs = false
 
 return config
