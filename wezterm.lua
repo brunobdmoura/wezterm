@@ -11,7 +11,8 @@ end
 
 -- Set the custom key bindings.
 config.keys = require("keys")
-config.colors = require("palettes.kanagawa_dragon")
+-- config.colors = require("palettes.kanagawa_dragon")
+config.color_scheme = "luna"
 
 config.enable_tab_bar = false
 
@@ -43,5 +44,6 @@ config.inactive_pane_hsb = {
 }
 
 config.warn_about_missing_glyphs = false
+config.window_background_opacity = 0.99
 
 return config
