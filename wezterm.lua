@@ -25,7 +25,8 @@ config.tab_max_width = 200
 -- config.front_end = "Software"
 
 config.font = wezterm.font({
-  family = "JetBrainsMono", -- "UbuntuMono"
+  --family = "UbuntuMono",
+  family = "JetBrainsMono Nerd Font",
   harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
   weight = "Medium"
 })
